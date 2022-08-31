@@ -53,3 +53,7 @@ Type in `dotnet test` and execute!
 The first aboveBelow solution focused on readibility. It is written to be clear/concise for ease of maintenance and code readibility. However, its flaw is that it iterates of the list of unsorted integers *twice*, making it a sub-optimal solution if efficiency is the most important metric. If there are only ever a limited number of items in the unsorted list, then this could remain a viable option.
 
 The second aboveBelowOptimized solution focused on making sure that the in memory list is only iterated against once, improving performance. However, with the current set of test data used, the performance difference is negligible. There isn't *too* much readability sacrificed in this example, but it does create some additional complexity during review. 
+
+### stringRotation
+
+This solution checks rotates the string as desired, ensuring that when the rotationAmount is beyond the length, that addtional steps are taken to understand what the rotation actually looks like. 

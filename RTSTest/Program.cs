@@ -18,3 +18,12 @@ var oprtimizedResponse = AboveBelow.aboveBelowOptimized(new List<int>() {1, 5, 2
 Console.WriteLine($"Above: {oprtimizedResponse.Above}, Below {oprtimizedResponse.Below}");
 
 Console.WriteLine("--------------------------------------------");
+
+
+Console.WriteLine("Running StringRotation with sample input of `MyString` (input string) and 2 (rotation amount)");
+
+var stringResponse = StringRotation.stringRotation("MyString", 2);
+
+Console.WriteLine($"Result: {stringResponse}");
+
+Console.WriteLine("--------------------------------------------");
