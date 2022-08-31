@@ -2,7 +2,8 @@ public static class StringRotation
 {
     public static string stringRotation(string input, int rotationAmount)
     {
-        if (rotationAmount == input.Length)
+        // Exit early conditions
+        if (rotationAmount == input.Length || string.IsNullOrEmpty(input) || rotationAmount < 1)
         {
             return input;
         }

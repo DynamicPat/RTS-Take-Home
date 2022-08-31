@@ -57,3 +57,5 @@ The second aboveBelowOptimized solution focused on making sure that the in memor
 ### stringRotation
 
 This solution checks rotates the string as desired, ensuring that when the rotationAmount is beyond the length, that addtional steps are taken to understand what the rotation actually looks like. 
+
+This was written with the assumptions that an empty or null string just gets returned as-is, and that rotation amount has to be at least 1 (not 0 or negative)
